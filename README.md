@@ -100,11 +100,15 @@ $$
 <h2>
 	Insentive Compatibility Constraints
 <h4>
-	The Incentive Constraints for both player can be given as:
 <p>
-	$$\alpha< \frac{u(\pi_i - \phi_i)}{\beta ~ u(\pi_i+f)}$$
-<p> or 
-<p> $$\beta< \frac{u(\pi_i - \phi_i)}{\alpha ~ u(\pi_i+ f)}$$
+	The Incentive Constraints for both player can be given as all the point in they both are indifferent between enter in bribery or not, or
+<p>
+$$E[y_{payer}] = E[y_{receiver}] = 0$$ , or
+<p>
+$$ u \left(-b^* + \gamma^2 \left[ (1-\alpha \beta) a - \alpha \beta f \right] \right) =u \left( -c_b + \gamma^2 \left[ (1-\alpha \beta) b^* - \alpha \beta f \right]\right) = 0 .$$
+<p>
+Notably, any pont bellow this curve, corruption is profitable for both players.
+<p>	
 <h2>
 	Policy Incentive Constraints
 <h3>
