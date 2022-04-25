@@ -129,7 +129,7 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
     </tr>
     <tr>
         <td>Not Report</td>
-        <td>\( - u(f;) - u(Rf) \)</td>
+        <td>\( - u(f); - u(Rf) \)</td>
         <td>\(  \gamma^2 \left[ (1-\alpha \beta) u(a )- \alpha \beta u(f )\right]  ;  \gamma^2 \left[ (1-\alpha \beta) u(b )- \alpha \beta u(f )\right]  \)</td>
     </tr>
 </table>
