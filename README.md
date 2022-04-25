@@ -105,7 +105,7 @@ $$
 <p>
 $$E[y_{payer}] = E[y_{receiver}] = 0$$ , or
 <p>
-$$ u \left(-b^* + \gamma^2 \left[ (1-\alpha \beta) a - \alpha \beta f \right] \right) =u \left( -c_b + \gamma^2 \left[ (1-\alpha \beta) b^* - \alpha \beta f \right]\right) = 0 .$$
+$$ u (-b^* ) + \gamma^2 \left[ (1-\alpha \beta) u(a) - \alpha \beta u(f) \right]  =u ( -c_b) + \gamma^2 \left[ (1-\alpha \beta) u(b^*) - \alpha \beta u(f) \right] = 0 .$$
 <p>
 Notably, any pont bellow this curve, corruption is profitable for both players.
 <p>	
