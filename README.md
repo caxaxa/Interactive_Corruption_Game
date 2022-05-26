@@ -124,12 +124,12 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
     </tr>
     <tr>
         <td>Report</td>
-        <td>\(  u(-rf+ \frac{f}{\gamma^2}\right)) ;  u(-rf+ \frac{f}{\gamma^2}\right)) \)</td>
-        <td>\(  u(-Rf+ \frac{f}{\gamma^2}\right)) ;  u(-f + \frac{f}{\gamma^2}\right))\)</td>
+        <td>\(  u left(-rf+ \frac{f}{\gamma^2}\right) ;  u left(-rf+ \frac{f}{\gamma^2}\right) \)</td>
+        <td>\(  u left(-Rf+ \frac{f}{\gamma^2}\right) ;  u left(-f + \frac{f}{\gamma^2}\right)\)</td>
     </tr>
     <tr>
         <td>Not Report</td>
-        <td>\( u(-f+ \frac{f}{\gamma^2}\right)); u(-Rf+ \frac{f}{\gamma^2}\right)) \)</td>
+        <td>\( u left(-f+ \frac{f}{\gamma^2}\right); u left(-Rf+ \frac{f}{\gamma^2}\right) \)</td>
         <td>\(  \gamma^2 \left[ (1-\alpha \beta) u\left(a + f \right) - \alpha \beta u(0) \right] ;   \gamma^2 \left[ (1-\alpha \beta) u\left(b + f \right) - \alpha \beta u(0) \right] \)</td>
     </tr>
 </table>
@@ -153,12 +153,12 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
     </tr>
     <tr>
         <td>Admit Guilty</td>
-        <td>\(  u(-pf+ \frac{f}{\gamma^2}\right)) ;  u(-pf+ \frac{f}{\gamma^2}\right)) \)</td>
-        <td>\(  u(-Pf+ \frac{f}{\gamma^2}\right)) ;  u(-f+ \frac{f}{\gamma^2}\right) )\)</td>
+        <td>\(  u left(-pf+ \frac{f}{\gamma^2}\right) ;  u left(-pf+ \frac{f}{\gamma^2}\right) \)</td>
+        <td>\(  u left(-Pf+ \frac{f}{\gamma^2}\right) ;  u left(-f+ \frac{f}{\gamma^2}\right) \)</td>
     </tr>
     <tr>
         <td>Not Admit</td>
-        <td>\( - u(f+ \frac{f}{\gamma^2}\right)); - u(Pf+ \frac{f}{\gamma^2}\right)) \)</td>
+        <td>\(  u left(f+ \frac{f}{\gamma^2}\right); -  left(-Pf+ \frac{f}{\gamma^2}\right) \)</td>
         <td>\(  \gamma \left[ (1-\beta) u(a + f ) - \beta u(0) \right] ; \gamma \left[ (1-\beta) u(b+ f ) - \beta u(0) \right] \)</td>
     </tr>
 </table>
