@@ -105,7 +105,7 @@ $$
 <p>
 $$E[y_{payer}] = E[y_{receiver}] = 0$$ , or
 <p>
-$$ u (-b^* ) + \gamma^2 \left[ (1-\alpha \beta) u(a) - \alpha \beta u(f) \right]  =u ( -c_b) + \gamma^2 \left[ (1-\alpha \beta) u(b^*) - \alpha \beta u(f) \right] = 0 .$$
+$$ E[u(y_i)] = \gamma^2 \left[ (1-\alpha \beta) u\left(\pi_i + f - \frac{\phi}{\gamma^2}\right) - \alpha \beta u(0) \right] > u\left(\frac{f}{\gamma^2} + \phi\right) .$$
 <p>
 Notably, any pont bellow this curve, corruption is profitable for both players.
 <p>	
@@ -124,13 +124,13 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
     </tr>
     <tr>
         <td>Report</td>
-        <td>\( - u(rf) ; - u(rf) \)</td>
-        <td>\(  - u(Rf) ; - u(f )\)</td>
+        <td>\(  u(-rf) ;  u(-rf) \)</td>
+        <td>\(  u(-Rf) ;  u(-f )\)</td>
     </tr>
     <tr>
         <td>Not Report</td>
-        <td>\( - u(f); - u(Rf) \)</td>
-        <td>\(  \gamma^2 \left[ (1-\alpha \beta) u(a )- \alpha \beta u(f )\right]  ;  \gamma^2 \left[ (1-\alpha \beta) u(b )- \alpha \beta u(f )\right]  \)</td>
+        <td>\( u(-f); u(-Rf) \)</td>
+        <td>\(  \gamma^2 \left[ (1-\alpha \beta) u\left(a + f \right) - \alpha \beta u(0) \right] ;   \gamma^2 \left[ (1-\alpha \beta) u\left(b + f \right) - \alpha \beta u(0) \right] \)</td>
     </tr>
 </table>
 
@@ -138,7 +138,7 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
 	
 	Agents report befor being detectd if:
 <p>
-	$$ -u(R_if)  \geq \gamma^2 \left[ (1-\alpha \beta) ~ u(\pi_j )- \alpha \beta ~ u(f) \right],$$ 
+	$$ u\left(-R_i^*f + \frac{f}{\gamma^2}\right) \geq \gamma^2 \left[ (1-\alpha \beta) u(\pi_j + f) - \alpha \beta u(0) \right],$$ 
 <p>
 	where the subscrpit \(j\) represents the other player. 
 
@@ -153,13 +153,13 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
     </tr>
     <tr>
         <td>Admit Guilty</td>
-        <td>\( - u(pf) ; - u(pf) \)</td>
-        <td>\(  - u(Pf) ; - u(f )\)</td>
+        <td>\(  u(-pf) ;  u(-pf) \)</td>
+        <td>\(  u(-Pf) ;  u(-f )\)</td>
     </tr>
     <tr>
         <td>Not Admit</td>
         <td>\( - u(f); - u(Pf) \)</td>
-        <td>\(  \gamma \left[ (1-\beta) u(a) - \beta u(f) \right]  ;  \gamma \left[ (1-\beta) u(b) -  \beta u(f) \right]  \)</td>
+        <td>\(  \gamma \left[ (1-\beta) u(a + f ) - \beta u(0) \right] ; \gamma \left[ (1-\beta) u(b+ f ) - \beta u(0) \right] \)</td>
     </tr>
 </table>
 	
@@ -167,7 +167,7 @@ Notably, any pont bellow this curve, corruption is profitable for both players.
 	Notably, the agents admit guilty if,
 <p>
 	$$
-	 -u(P_if) \geq \gamma \left[ (1-\beta) ~u(\pi_j) - \beta ~u(f) \right].
+		u\left(-P_i^*f + \frac{f}{\gamma}\right) \geq \gamma \left[ (1-\beta) u(\pi_j + f ) - \beta u(0) \right].
 	$$
 
 <p>
